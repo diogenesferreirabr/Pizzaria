@@ -1,2 +1,2 @@
 # Pizzaria
-Landing Page de uma pizzaria. com pedidos enviados direto paea wathsapp
+Landing Page de uma pizzaria. com pedidos enviados direto para wathsapp
