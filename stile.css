@@ -213,6 +213,6 @@ a{
     } sub-grid errado saindo da grid na responsividade*/
     .sub-grid {
         width: 100%;
-        padding: 20%;
+        padding: 5px;
     }
 }
