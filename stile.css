@@ -180,6 +180,12 @@ a{
     padding-top: 5px;
     max-width: 100%;
 }
+.animar-scroll {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.6s ease-out;
+}
+
 .animar-scroll.ativo {
     opacity: 1;
     transform: translateY(0);
@@ -193,6 +199,11 @@ a{
         height: 160%;
         border-radius: 15px;
         text-align: center;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+        width: 100%;
+        padding: 10px;
     }
     /*.sub-grid{
         margin: 0 auto;
