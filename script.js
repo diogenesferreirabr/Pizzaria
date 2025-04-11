@@ -31,3 +31,22 @@ document.getElementById('btnpedir4').addEventListener('click', function(){
     let soma = lista.reduce((acumalador, valor)=> acumalador = valor, 0);
     document.getElementById('resultado').innerHTML = "soma: " + soma;
 });
+
+// funco para animar scroll
+//barra de rolagem na tela mais suave
+function animaAoScroll() {
+    const elementos = document.querySelectorAll('.animar-scroll');
+    const trigger = window.innerHeight * 0.85;
+
+    elementos.forEach(el => {
+        const topo = el.getBoundingClientRect().top;
+        if (topo < trigger) {
+            el.classList.add('ativo');
+        } else {
+            el.classList.remove('ativo');
+        }
+    });
+}
+
+window.addEventListener('scroll', animaAoScroll);
+window.addEventListener('load', animaAoScroll);

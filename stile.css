@@ -180,6 +180,10 @@ a{
     padding-top: 5px;
     max-width: 100%;
 }
+.animar-scroll.ativo {
+    opacity: 1;
+    transform: translateY(0);
+}
 @media screen and (max-width:767px){
     .section-2{
         background-color: red;
@@ -190,10 +194,14 @@ a{
         border-radius: 15px;
         text-align: center;
     }
-    .sub-grid{
+    /*.sub-grid{
         margin: 0 auto;
         width:20%;
         max-width:70%;
         background-color: #fff;    
+    } sub-grid errado saindo da grid na responsividade*/
+    .sub-grid {
+        width: 100%;
+        padding: 10px;
     }
 }
