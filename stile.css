@@ -201,7 +201,7 @@ a{
         text-align: center;
     }
     .grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 2fr;
         width: 100%;
         padding: 10px;
     }
