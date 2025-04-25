@@ -168,11 +168,6 @@ a.btn {
     margin-top: 15px;
     color: #fff;
 }
-/*.mapa{
-    corrigido
-    margin: 20px ;
-    padding: 20px;
-}*/
 .mapa-2 img{
     float: right;
     margin-top: 100px;
@@ -228,15 +223,6 @@ footer{
 }
 
 @media screen and (max-width:767px){
-    /*.section-2{
-        background-color: red;
-        margin: 0 auto;
-        width: 50%;
-        max-width: 767px;
-        height: 160%;
-        border-radius: 15px;
-        text-align: center;
-    }*/
     .grid-container{
         
         background-color: red;
