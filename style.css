@@ -168,11 +168,11 @@ a.btn {
     margin-top: 15px;
     color: #fff;
 }
-.mapa{
-    
-   /* margin: 20px ;
-    padding: 20px;*/
-}
+/*.mapa{
+    corrigido
+    margin: 20px ;
+    padding: 20px;
+}*/
 .mapa-2 img{
     float: right;
     margin-top: 100px;
@@ -182,41 +182,6 @@ a.btn {
     height: 300px;
     color: black;
 }
-/*.tabela {
-    padding: 100px 20px;
-    background-color: black;
-    color: #fff;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.lista-horario{
-    display: inline;
-    width: 10%;
-    max-width: 768px;
-
-}
-.lista-horario li{
-    list-style: none;
-    margin-bottom: 15px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-.tab{
-    height: 1px;
-    background-color: gray;
-    flex: 1 1 auto;
-}
-.lista-horario span{
-    color: #c4a47c;
-}
-li :hover{
-    border: 3px solid blue;
-    color: blue;
-}*/
 .tabela{
     text-align: center;
     color:  #fff;
@@ -300,5 +265,17 @@ footer{
         border-radius: 10px;
         overflow: hidden;
         align-items: center;
+    }
+    .loja{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: red;
+    
+    }
+    .h2-loja{
+        text-align: center;
+        background-color: red;
     }
 }
