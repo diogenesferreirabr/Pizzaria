@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria Java Joe's</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+
+</head>
+
+<body >
+    <header id="header">
+        <h1 id="h1"> Java Joe's Pizzaria e Bistrô </h1>
+        <div class="log">
+        <h3 class="h3"> Pizzaria e Bistrô na Villa Valqueire inspirada em Nova York </h3>
+        <img class="logo" src="img/logo.png.png" width="80" height="80" alt="logo">
+        </div>
+
+        <nav id="navegaçao">
+            <a class="link-cabeçalho" href="#header"> Home </a>
+            <a class="link-cabeçalho" href="#pizzas"> Rodizio </a>
+            <a class="link-cabeçalho" href="#bebidas"> Loja </a>
+            <a class="link-cabeçalho" href="#map"> Endereço </a>
+            <a class="link-cabeçalho" href="#hora"> Horário </a>
+            <a class="link-cabeçalho" href="#rodape"> Contatos </a>
+        </nav>
+        
+    </header>
+    <br>
+    <br>
+    <br>
+    <section class="section-1">
+        <h2 class="h2-section1">Sejam Bem vindos(a)</h2>
+        <p class="p1">Conheca nossa Pizzaria e Bistrô e nossas novidades!</p>
+        <p class="p1">Venha Saborear Com a gente.</p>
+    </section>
+    <br>
+    <br>
+    <br>
+
+    <section class="section-2" id="pizzas">
+        <h2 class="h2-cardapio">Rodízio</h2>
+        <br>
+        <div class="grid-container">
+            <div class="grid animar-scroll">
+                <div class="sub-grid">
+                    <h2 class="h2-sub-grid">Benedito</h2>
+                    <img class="img-pizza" src="img/bandito.png.png" alt="Pizza Benedito">
+                    <p class="p-preços">Nesta Quarta, o seu rodizio é por nossa conta!</p>
+                    <details>
+                        <summary>Veja as regras </summary>
+                        <p>voçê precisa trazer uma pessoa junto com voçê e documento de identificação</p>
+                        <p>Rodizío de pizzas e massas e refil de bebidas não alcóolicas R$59,90 para acompanhante</p>
+                    </details>                    
+                    <!--<button class="botao-açao" onclick="adicionarItem('Pizza de Calabresa', 49.99)">Pedir Pizza</button> -->  
+                </div>
+                <div class="sub-grid">
+                    <h2 class="h2-sub-grid">Vanusa</h2>
+                    <img class="img-pizza" src="img/vanusa.png.png" alt=" Vanusa">
+                    <p class="p-preços">Nessa terça, o seu rodízio é por nossa conta!</p>
+                    <details>
+                        <summary>Veja as regras </summary>
+                        <p>voçê precisa trazer uma pessoa junto com voçê e documento de identificação</p>
+                        <p>Rodizío de pizzas e massas e refil de bebidas não alcóolicas R$59,90 para acompanhante</p>
+                    </details> 
+                    <!--<button class="botao-açao" onclick="adicionarItem('Pizza de Portuguesa', 49.99)">Pedir Pizza</button>-->
+                </div>
+                <div class="sub-grid">
+                    <h2 class="h2-sub-grid">Larissa</h2>
+                    <img class="img-pizza" src="img/larissa.png.png" alt="Pizza larissa">
+                    <p class="p-preços">Nessa quinta o seu Rodízio é por nossa conta!</p>
+                    <details>
+                        <summary>Veja as regras </summary>
+                        <p>voçê precisa trazer uma pessoa junto com voçê e documento de identificação</p>
+                        <p>Rodizío de pizzas e massas e refil de bebidas não alcóolicas R$59,90 para acompanhante</p>
+                    </details> 
+                    <!--<button class="botao-açao" onclick="adicionarItem('Pizza de Queijo', 49.99)">Pedir Pizza</button>-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br>
+    <br>
+    <br>
+
+<!--seçao Bebidas-->
+    <h2 id="bebidas" class="h2-loja">Nossa Loja</h2>
+    <section class="loja" id="section.grid">
+        <!--<h2 id="bebidas" class="h2-cardapio">Nossa Loja</h2>-->
+        <br>
+        <br>
+        <div class="grid animar-scroll">
+            <div class="sub-grid">
+                    <!--<h2 class="h2-sub-grid">Coca-Cola Lata</h2>-->
+                    <img class="img-pizza" src="img/salao1.png" alt="salao-1">
+                    <!--<p class="p-preços">R$ 5,99</p>
+                <button type="submit" class="botao-açao" id="btnpedir1" value=5>Pedir</button>-->    
+            </div>
+        </div>
+
+        <div class="grid animar-scroll">
+            <div class="sub-grid">
+                    <!--<h2 id="antartica" class="h2-sub-grid">Guarana Antarctica Lata</h2>-->
+                    <img class="img-pizza" src="img/salao2.png" alt="Guarana Antarctica">
+                    <!--<p class="p-preços">R$ 5,99</p> exemplo para criar carrinho adicionando pedido
+                <button type="submit" class="botao-açao" id="btnpedir2" value=10>Pedir</button>-->
+            </div>
+        </div>    
+
+        <div class="grid animar-scroll">
+            <div class="sub-grid">
+                    <img class="img-pizza" src="img/salao3.png" alt="Pepsi">
+            </div>
+        </div>
+        <div class="grid animar-scroll">
+            <div class="sub-grid">
+                    <img class="img-pizza" src="img/salao4.png" alt="Pepsi">
+            </div>
+        </div>
+        <p>Venha conhecer nossa loja!
+            Um ambiente totalmente climatizado, com som ambiente e um atendimento de primeira, pensado para proporcionar a você uma experiência única e confortável.
+            Aqui você encontra pizzas irresistíveis, massas artesanais, drinks incríveis e muito mais.
+            Vem com a gente saborear todas essas delícias e descobrir as novidades que preparamos especialmente pra você!</p>
+        <!--<button type="submit" class="botao-açao" id="btnpedir4" >Realizar Pedido</button>
+        <div id="resultado"><h3>Seu carrinho está vazio</h3></div>-->
+    </section>
+    <div class="text-loja">
+        <p>Peça também de sua casa! No nosso delivery!</p>
+        <a class="btn" href="https://wa.me/552197454599?text=Olá, gostaria de fazer um pedido pelo delivery." target="_blank">
+            Peça aqui
+        </a>
+    </div>
+    
+
+    <a class="botao-whatsapp" href=" https://wa.me//5521974546599?text=Seja bem vindo(a) à Javaq Joe's! Como podemos te ajudar hoje?. " target="_blank">
+        <i class="fa fa-whatsapp"></i>
+    </a>
+    <br>
+    <section class="mapa">
+        <div id="map">
+            <h3>Nosso Endereço! </h3>
+            <div class="mapa-2">
+                <iframe src="https://www.google.com/maps/embed?pb=!4v1745461930224!6m8!1m7!1srZiSF2gIVy6Xdac_MPYXIQ!2m2!1d-22.87978602528281!2d-43.36334163537615!3f311.66122900733257!4f-18.744399214509798!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <img src="img/salao6.png" alt="salao">
+            </div>
+        </div>
+    </section>
+    <br><br><br><br>
+
+    <section class="horario" id="hora">
+        <div class="tabela">
+            <h3>HORARIO DE fUNCIONAMENTO</h3>
+            <table class="tabela-horario">
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Segunda</td><td>Fechado</td></tr>
+                    <tr><td>Terça</td><td>17:00 - 00:00</td></tr>
+                    <tr><td>Quarta</td><td>17:00 - 00:00</td></tr>
+                    <tr><td>Quinta</td><td>17:00 - 00:00</td></tr>
+                    <tr><td>Sexta</td><td>17:00 - 00:00</td></tr>
+                    <tr><td>Sábado</td><td>17:00 - 00:00</td></tr>
+                    <tr><td>Domingo</td><td>17:00 - 00:00</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+
+    <footer id="rodape">
+        <h2 id="h2-rodape">Contatos da Pizzaria</h2>
+        <p class="p1-footer">Whatsapp (21) 97454-6599</p>
+        <p class="p1-footer">E-mail: javajoespizzariaebistro@gmail.com</p>
+        <!--<p class="p1-footer">CNPJ: 00000000000</p>-->
+        <P>Desenvolvido Por Diogenes Ferreira</P> 
+        <span><b>© 2025 JAVA JOE'S, Inc</b></span>
+    </footer>
+
+
+
+   <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

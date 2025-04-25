@@ -1,0 +1,304 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #FFA07A;
+    
+}
+#header{
+    background-color: red;
+    z-index: 1;
+    display: grid;
+
+}
+#h1{
+    color: #fff;
+    font-size: arial;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+}
+.h3{
+    color: #fff;
+    font-size: Arial;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+}
+.log {
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+   /* margin-left: 1200px;*/
+
+}
+.link-cabeçalho{
+    font-weight: bold;
+    font-family: arial;
+    text-decoration: none;
+    word-spacing: 5px;
+    text-align: end;
+    align-items: end;
+    padding-left:5px ;
+}
+.link-cabeçalho:hover{
+    color: yellow;
+    transition: all ease-in-out3ms;
+}
+html{
+    scroll-behavior: smooth;
+}
+.section-1{
+    color: #fff;
+    background-color: red;
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+    height: 150px;
+    border-radius: 15px;
+}
+.section-2{
+    background-color: red;
+    margin: 0 auto;
+    width: 70%;
+    max-width: 100%;
+    height: 160%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.loja{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: red;
+
+}
+.h2-loja{
+    text-align: center;
+    background-color: red;
+} 
+
+.p1{
+    padding-top: 13px;
+    font-family: Arial;
+    font-size: 22px;
+}
+.grid{
+    background-color: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    width: 50%;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 5px;
+}
+.sub-grid{
+    margin: 0 auto;
+    padding: 20%;
+    background-color: #fff;
+
+}
+.img-pizza{
+    max-width: 100%;
+}
+.grid-container {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    /*flex-wrap: wrap;*/
+    gap: 20px;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    /*flex-wrap: wrap;*/
+    gap: 20px;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.sub-grid {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.text-loja{
+    background-color: rgb(106, 106, 177);
+    text-align: center;
+    
+}
+a.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #25D366;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.botao-whatsapp{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 30px;
+    right: 25px;
+    background-color: green;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 1000;
+    box-shadow: 5px 5px 5px green;
+}
+.fa-whatsapp{
+    margin-top: 15px;
+    color: #fff;
+}
+.mapa{
+    
+   /* margin: 20px ;
+    padding: 20px;*/
+}
+.mapa-2 img{
+    float: right;
+    margin-top: 100px;
+    margin-right: 30px;
+    width: 350px;
+    margin-left: auto;
+    height: 300px;
+    color: black;
+}
+/*.tabela {
+    padding: 100px 20px;
+    background-color: black;
+    color: #fff;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lista-horario{
+    display: inline;
+    width: 10%;
+    max-width: 768px;
+
+}
+.lista-horario li{
+    list-style: none;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.tab{
+    height: 1px;
+    background-color: gray;
+    flex: 1 1 auto;
+}
+.lista-horario span{
+    color: #c4a47c;
+}
+li :hover{
+    border: 3px solid blue;
+    color: blue;
+}*/
+.tabela{
+    text-align: center;
+    color:  #fff;
+}
+.tabela-horario {
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: black;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    border-radius: 8px;
+    overflow: hidden;
+    
+}
+
+.tabela-horario th, .tabela-horario td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.tabela-horario th {
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+}
+
+.tabela-horario tr:nth-child(even) {
+    background-color: black;
+}
+footer{
+    background-color: black;
+    color: #fff;
+    font-family: arial;
+    margin-top: 25px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    padding-top: 13px;
+    text-align: center;
+}
+
+@media screen and (max-width:767px){
+    /*.section-2{
+        background-color: red;
+        margin: 0 auto;
+        width: 50%;
+        max-width: 767px;
+        height: 160%;
+        border-radius: 15px;
+        text-align: center;
+    }*/
+    .grid-container{
+        
+        background-color: red;
+        margin: 0 auto;
+        width: 50%;
+        max-width: 767px;
+        height: 160%;
+        border-radius: 15px;
+        text-align: center;
+    }
+    .grid {
+        grid-template-columns: 2fr;
+        width: 100%;
+        padding: 10px;
+    }
+    .sub-grid {
+        width: 100%;
+        padding: 5px;
+    }
+    .mapa {
+        width: 50%; /* ocupa toda a largura disponível */
+        max-width: 50%;
+        height: 300px; /* altura mais amigável pro mobile */
+        padding: 5px;
+        position: relative;
+        border-radius: 10px;
+        overflow: hidden;
+        align-items: center;
+    }
+}
