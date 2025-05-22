@@ -84,6 +84,11 @@ html{
     text-align: center;
     background-color: red;
 } 
+.para{
+    background-color: red,
+    display:flex,
+    text-align: center,
+    }
 
 .p1{
     padding-top: 13px;
