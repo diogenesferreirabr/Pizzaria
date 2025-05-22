@@ -85,9 +85,9 @@ html{
     background-color: red;
 } 
 .para{
-    background-color: red,
-    display:flex,
-    text-align: center,
+    background-color: red;
+    display:flex;
+    text-align: center;
 }
 
 .p1{
