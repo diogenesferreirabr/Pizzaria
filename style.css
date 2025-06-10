@@ -87,8 +87,12 @@ html{
 } 
 .para{
     background-color: red;
+    color: #e9f3f5;
     display:flex;
     text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 6px;
 }
 
 .p1{
