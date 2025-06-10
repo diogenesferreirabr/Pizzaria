@@ -281,11 +281,14 @@ footer{
     .grid {
         display:grid;
         grid-template-columns: 2fr;
-        width: 150%;
-        padding: 10px;
+        /*width: 150%;*/
+        gap: 10px;
+        padding:10px;
+        box-sizzing:border-box;
     }
     .sub-grid {
-        width: 70%;
+        /*width: 70%;*/
+        box-sizzing:border-box;
         padding: 5px;
         background-color:blue;
     }
