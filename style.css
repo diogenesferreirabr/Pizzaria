@@ -275,8 +275,11 @@ footer{
         height: 160%;
         border-radius: 15px;
         text-align: center;
+        padding:20px;
+        box-sizzing: border-box;
     }
     .grid {
+        display:grid;
         grid-template-columns: 2fr;
         width: 150%;
         padding: 10px;
