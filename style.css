@@ -270,16 +270,17 @@ footer{
         
         background-color: red;
         margin: 0 auto;
-        width: 50%;
-        max-width: 767px;
+        width: 700%;
+        max-width: 768px;
         height: 160%;
         border-radius: 15px;
         text-align: center;
     }
     .grid {
-        grid-template-columns: 2fr;
-        width: 100%;
+        grid-template-columns: 3fr;
+        width: 70%;
         padding: 10px;
+        background-color: blue;
     }
     .sub-grid {
         width: 100%;
