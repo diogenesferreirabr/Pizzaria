@@ -148,7 +148,10 @@ html{
 }
 .text-loja{
     background-color: rgb(106, 106, 177);
+    color: #fff;
     text-align: center;
+    margin: 20px;
+    border-radius: 10px;
     
 }
 a.btn {
