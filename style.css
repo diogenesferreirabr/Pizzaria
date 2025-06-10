@@ -278,11 +278,11 @@ footer{
     }
     .grid {
         grid-template-columns: 2fr;
-        width: 70%;
+        width: 150%;
         padding: 10px;
     }
     .sub-grid {
-        width: 50%;
+        width: 70%;
         padding: 5px;
         background-color:blue;
     }
