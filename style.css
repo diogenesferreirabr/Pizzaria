@@ -277,7 +277,7 @@ footer{
         text-align: center;
     }
     .grid {
-        grid-template-columns: 3fr;
+        grid-template-columns: 1fr;
         width: 70%;
         padding: 10px;
         background-color: blue;
