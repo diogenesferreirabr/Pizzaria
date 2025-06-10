@@ -277,14 +277,14 @@ footer{
         text-align: center;
     }
     .grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 2fr;
         width: 70%;
         padding: 10px;
-        background-color: blue;
     }
     .sub-grid {
         width: 100%;
         padding: 5px;
+        background-color:blue;
     }
     .mapa {
         width: 50%; /* ocupa toda a largura disponível */
